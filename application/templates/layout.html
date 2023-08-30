@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expenses Income</title>
+    
+    {% if title %}
+        <title>Expenses App - {{ title }} </title>
+    {% else %}
+        <title>Expenses App  </title>
+    {% endif %}
 </head>
 <body>
-    <h1>layout</h1>
+    {%  block content %}
+        <h2>This is the layout file</h2>
+    {% endblock %}
 </body>
 </html>
