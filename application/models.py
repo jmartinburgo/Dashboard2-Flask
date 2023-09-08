@@ -11,4 +11,6 @@ class IncomeExpenses(db.Model):
     def __str__(self):
         return self.id
     
-    def 
+
+
+    

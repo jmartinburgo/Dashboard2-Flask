@@ -11,5 +11,8 @@ app.config['SECRET_KEY']='joasjdoaiooajdoaisjdoaiendjasoidjasoidjkjoasijdoaisdjo
 
 db=SQLAlchemy(app)
 
+app.app_context().push()
+
 
 from application import routes
+
